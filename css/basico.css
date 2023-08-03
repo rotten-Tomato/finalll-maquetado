@@ -1,0 +1,171 @@
+
+
+.header{
+    display:flex;
+    flex-direction:row;
+    padding:2%;
+}
+.header .articulo{
+    flex:50%;
+}
+
+
+
+
+/**/
+
+
+
+header{
+    background-color:rgb(0, 0, 0);
+}
+
+h1 a{
+    color:bisque;
+    text-decoration:none;
+}
+
+button a{
+    color:bisque;
+    text-decoration:none;
+}
+
+nav {
+    text-align: center;
+    padding-top:2%;
+}
+
+nav ul li{
+    text-align: center;
+    display:inline;
+}
+
+nav ul li a{
+    background-color:rgb(248, 222, 187);
+    text-decoration:none;
+    color:rgb(229, 228, 155);
+    background-color:black;
+    border:2px solid rgb(229, 228, 155);
+    border-radius:30px;
+    padding:3%;
+}
+
+nav ul li a:hover{
+    background-color:rgb(229, 228, 155);
+    color:black;
+    border-radius:30px;
+}
+
+.redondo{
+    background-color:antiquewhite;
+    padding:2px;
+    border-radius:50px;
+}
+
+.registrarse{
+    padding-left:75%;
+    padding-top:4%;
+}
+
+
+
+
+/*FOOTER*/
+
+
+/*FOOTER*/
+
+footer{
+    background-color:rgb(241, 195, 44);
+    padding-left:10%;
+    padding-top:10%;
+    padding-bottom:5%;
+}
+
+.bordesito{
+    padding-left:30%;
+}
+
+
+.caja{
+    display:flex;
+    flex-direction: row;
+
+}
+.caja .partes{
+    flex: 50%;
+}
+
+/*--------*/
+
+.contenedor{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    padding:10%
+}
+
+.fila .te{
+    flex: 50%;
+
+}
+
+.contenedor{
+    padding-top:10%;
+    padding: 10%;
+}
+
+figure{
+    text-align:center;
+}
+
+
+.circulo{
+    border-radius:50%
+}
+
+.imagen{
+    width:100%
+}
+
+
+/*GALERIa DE bLOG*/
+
+.banner-galeria{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top:0%
+
+}
+
+.banner-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.cuadro:nth-child(1){
+    grid-row-start: span 2;
+    background-color:rgb(136, 209, 126);
+    text-align:center;
+    padding:20%;
+}
+
+.cuadro:nth-child(2){
+    grid-row-start: span 2;
+}
+
+.cuadro:nth-child(3){
+    grid-row-start: span 2;
+}
+
+.banner-galeria .cuadro .color button a{
+    text-decoration:none;
+}
+
+label{
+    display:block;
+}
